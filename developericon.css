@@ -1,0 +1,11 @@
+/* Developer Icon on the Side */
+
+.svg-icon {
+    position: fixed;
+    top: 20px; 
+    left: 15px; 
+    width: 40px; 
+    height: 40px; 
+    z-index: 999; 
+    cursor: pointer; 
+}

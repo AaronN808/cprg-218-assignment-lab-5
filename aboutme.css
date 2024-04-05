@@ -1,0 +1,81 @@
+/* Image styles */
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20%;
+    display: block; 
+    margin: 0 auto;
+}
+
+
+/* Accordion styles */
+.accordion {
+    background-color: #f1f1f1;
+    color: #333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ddd;
+}
+
+/* Panel styles */
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+.panel.show {
+    display: block;
+}
+
+/* Footer styles */
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 90px 0;
+}
+
+/* Card container styles */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin: 0 auto; 
+    max-width: 1200px; 
+}
+
+/* Card styles */
+.card {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center; 
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 0 10px 20px 10px; 
+    box-sizing: border-box;
+    flex: 0 0 calc(50% - 20px); 
+}
+
+/* Responsive styles for cards */
+@media (max-width: 768px) {
+    .card {
+        flex: 0 0 calc(50% - 20px); 
+    }
+}
+
+/* Heading 2 styles */
+h2 {
+    text-align: center; 
+}

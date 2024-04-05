@@ -1,0 +1,31 @@
+body {
+    font-family: "mae-variable",sans-serif;
+        font-variation-settings: 'wght' 600;
+}
+header {
+    background-color: #000000;
+    padding: 10px 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 90px 0;
+}
